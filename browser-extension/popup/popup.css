@@ -1,0 +1,24 @@
+.popup-container {
+  width: 200px;
+  padding: 15px;
+}
+
+h3 {
+  margin: 0 0 15px 0;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}

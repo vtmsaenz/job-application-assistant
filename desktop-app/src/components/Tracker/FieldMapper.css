@@ -1,0 +1,96 @@
+/* src/components/Tracker/FieldMapper.css */
+.field-mapper {
+  padding: 24px 0;
+}
+
+.field-mapper h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.mapper-description {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.mapping-status {
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+}
+
+.status-good {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #059669;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-good svg {
+  color: #10b981;
+}
+
+.status-warning {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #d97706;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-warning svg {
+  color: #f59e0b;
+}
+
+.mappings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mapping-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  gap: 16px;
+  align-items: center;
+  padding: 12px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.field-info label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.required {
+  color: #ef4444;
+  margin-left: 4px;
+}
+
+.field-select {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+}
+
+.field-select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.mapped-icon {
+  color: #10b981;
+}

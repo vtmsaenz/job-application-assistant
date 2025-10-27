@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+release/
+out/
+
+# Electron distributables
+*.app
+*.dmg
+*.zip
+*.exe
+*.deb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Cache
+.cache/
+.vite/
+
+# Environment
+.env
+.env.local

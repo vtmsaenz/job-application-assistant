@@ -1,0 +1,48 @@
+/* src/components/Common/Header.css */
+.app-header {
+  height: 64px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f9fafb;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.header-search input {
+  background: none;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  color: #374151;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  color: #6b7280;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+.icon-button:hover {
+  background-color: #f3f4f6;
+}

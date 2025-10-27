@@ -1,0 +1,93 @@
+/* src/components/Tracker/ApplicationList.css */
+.application-list {
+  max-width: 1400px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.list-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.list-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.list-filters {
+  margin-bottom: 24px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 10px 16px;
+  max-width: 400px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  color: #374151;
+}
+
+.search-box svg {
+  color: #9ca3af;
+}
+
+.applications-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.applications-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.applications-table thead {
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.applications-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.applications-table td {
+  padding: 16px;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 14px;
+  color: #374151;
+}
+
+.applications-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.empty-row {
+  text-align: center;
+  color: #9ca3af;
+  padding: 60px 20px !important;
+}
